@@ -1,0 +1,49 @@
+/* ==========================================================================
+   ANIMAÇÕES
+   Todos os @keyframes centralizados aqui.
+   Classes de animação são aplicadas nos arquivos de componente.
+   ========================================================================== */
+
+
+/* Piscada — usado em textos de status e CTAs  */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.anim-blink {
+  animation: blink var(--duration-blink) step-end infinite;
+}
+
+.anim-blink--slow {
+  animation: blink var(--duration-blink-2) step-end infinite;
+}
+
+
+/* Direção do carro — balanço lateral no hero */
+@keyframes car-drive {
+  from { transform: translateX(-12px) rotate(-2deg); }
+  to   { transform: translateX(12px)  rotate(2deg);  }
+}
+
+.anim-car-drive {
+  animation: car-drive var(--duration-car) ease-in-out infinite alternate;
+}
+
+
+/* --------------------------------------------------------------------------
+   Preenchimento de barra — cresce da esquerda para a direita
+   Usado nas barras de fuel e progresso de lap.
+   A largura alvo é definida inline no elemento (width: X%).
+   -------------------------------------------------------------------------- */
+@keyframes fill-up {
+  from { width: 0 !important; }
+}
+
+.anim-fill-up {
+  animation: fill-up var(--duration-fuel) var(--easing-out) both;
+}
+
+.anim-fill-up--slow {
+  animation: fill-up var(--duration-lap) var(--easing-out) both;
+}

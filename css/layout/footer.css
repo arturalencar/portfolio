@@ -1,0 +1,40 @@
+/* ==========================================================================
+   COMPONENTE: FOOTER
+   Rodapé com CTA e citação.
+   ========================================================================== */
+
+.footer {
+  margin-top: 14px;
+  padding: var(--space-6);
+  text-align: center;
+  background-color: var(--color-bg-base);
+  border-top: var(--border-footer) solid var(--color-border-primary);
+}
+
+.footer__cta {
+  display: block;
+  margin-bottom: 10px;
+  font-family: var(--font-display);
+  font-size: var(--text-xxs);
+  letter-spacing: 2px;
+  color: var(--color-primary);
+}
+
+.footer__quote {
+  padding: var(--space-4);
+  font-family: var(--font-display);
+  font-size: var(--text-tiny);
+  line-height: 2;
+  color: var(--color-text-ghost);
+  font-style: italic;
+}
+
+@media(min-width: 768px) {
+  .footer__quote {
+    font-size: var(--text-xxs);
+  }
+
+  .footer__cta {
+    font-size: var(--text-xs);
+  }
+}

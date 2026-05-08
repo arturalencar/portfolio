@@ -1,0 +1,7 @@
+/* Estilização dos cards */
+
+@import url("./info-card.css");
+@import url("./project-card.css");
+@import url("./contact-card.css");
+@import url("./git-stats-card.css");
+@import url("./stack-bars.css");

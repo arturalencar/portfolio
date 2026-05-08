@@ -1,0 +1,12 @@
+/*  MAIN.CSS — Ponto de entrada do sistema de estilos */
+
+@import url('./base/tokens.css');
+@import url('./base/reset.css');
+@import url('./base/base.css');
+
+@import url('./animations.css');
+@import url('./layout/layout.css');
+@import url('./layout/hero.css');
+@import url('./components/index.css');
+
+@import url('./layout/footer.css');

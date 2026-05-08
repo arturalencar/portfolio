@@ -1,0 +1,37 @@
+.stat-card {
+  position: relative;
+  overflow: hidden;
+  padding: 12px 14px;
+  background-color: var(--color-bg-card);
+  border: var(--border-thin) solid var(--color-border-primary);
+  border-radius: var(--radius-lg);
+}
+
+/* Barra lateral de destaque */
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--border-accent);
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    var(--color-secondary),
+    var(--color-primary)
+  );
+}
+
+.stat-card__label {
+  display: block;
+  margin-bottom: var(--space-1) + 1px;
+  font-family: var(--font-display);
+  font-size: var(--text-tiny);
+  color: var(--color-text-ghost);
+}
+
+.stat-card__value {
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: var(--color-secondary);
+}

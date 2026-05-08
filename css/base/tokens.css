@@ -1,0 +1,150 @@
+/* ==========================================================================
+   DESIGN TOKENS
+   Fonte única de verdade para todas as variáveis visuais do projeto.
+   ========================================================================== */
+
+:root {
+
+   /* PALETA DE CORES */
+
+   /* Cores primárias */
+   --color-primary: #ff5500;
+   /* Laranja — acentos, bordas, CTAs */
+   --color-primary-dark: #cc2200;
+   /* Laranja escuro — sombras de texto */
+   --color-secondary: #ffcc00;
+   /* Amarelo — texto de destaque, barras */
+   --color-secondary-dim: #d4b800;
+   /* Amarelo opaco — gradientes */
+
+   /* Cores de fundo */
+   --color-bg-base: #0a0010;
+   /* Fundo principal — quase preto */
+   --color-bg-deep: #1a0030;
+   /* Fundo profundo — hero sky */
+   --color-bg-mid: #3d0060;
+   /* Fundo médio — hero middle */
+   --color-bg-card: #110022;
+   /* Fundo dos cards */
+   --color-bg-road: #12122a;
+   /* Fundo da estrada / dividers */
+
+   /* Cores de estado */
+   --color-success: #00cc66;
+   --color-success-bg: #003320;
+   --color-success-border: #00cc66;
+
+   --color-warning: #ffaa00;
+   --color-warning-bg: #332200;
+   --color-warning-border: #ffaa00;
+
+   --color-danger: #ff5500;
+   --color-danger-bg: #330f00;
+   --color-danger-border: #ee4f00;
+
+   /* Cores de texto */
+   --color-text-primary: #ffffff;
+   --color-text-muted: #cccccc;
+   --color-text-dim: #888888;
+   --color-text-ghost: #555555;
+
+   /* Cores de borda */
+   --color-border-primary: #ff5500;
+   --color-border-card: #222244;
+   --color-border-section: #330055;
+   --color-border-divider: #220033;
+   --color-border-contact: #1a0030;
+
+   /* Cores de stack (tech badges / barras de fuel) */
+   --color-tech-js: #f7de1e80;
+   --color-tech-ts: #3179c680;
+   --color-tech-java: #ed8a0081;
+   --color-tech-react: #61dafb7e;
+   --color-tech-spring: #6db33f7c;
+   --color-tech-node: #3399337a;
+   --color-tech-sql: #33679179;
+
+   /* Cores do pôr do sol (hero gradient) */
+   --color-sun-body: #ffcc00;
+   --color-sun-stripe: #ff5500;
+   --color-horizon-warm: #cc3300;
+   --color-horizon-hot: #ff8800;
+
+
+   /* TIPOGRAFIA */
+
+   --font-display: 'Press Start 2P', monospace;
+   /* Títulos, labels arcade */
+   --font-mono: 'Share Tech Mono', monospace;
+   /* Corpo, dados, stacks */
+
+   /* Escala tipográfica */
+   --text-hero: 1.5rem;
+   /* Nome principal no hero */
+   --text-xl: 1.125rem;
+   /* Valores de stats */
+   --text-lg: 1rem;
+   /* Valores secundários, stacks */
+   --text-base: 0.875rem;
+   /* Texto de corpo, contatos */
+   --text-sm: 0.75rem;
+   /* Subtextos */
+   --text-xs: 0.625rem;
+   /* Labels arcade secundárias */
+   --text-xxs: 0.5rem;
+   /* Labels de seção, rótulos */
+   --text-tiny: 0.375rem;
+   /* Micro labels dos cards */
+
+
+   /* ESPAÇAMENTO
+      Sistema baseado em múltiplos de 4px  
+   */
+
+   --space-1: 0.25rem;
+   --space-2: 0.5rem;
+   --space-3: 0.75rem;
+   --space-4: 1rem;
+   --space-5: 1.25rem;
+   --space-6: 1.5rem;
+   --space-8: 2rem;
+   --space-10: 2.5rem;
+
+
+   /* BORDAS E RAIOS */
+
+   --radius-sm: 0.1875rem;
+   --radius-md: 0.25rem;
+   --radius-lg: 0.375rem;
+
+   --border-thin: 0.0625rem;
+   --border-accent: 0.1875rem;
+   /* Borda lateral de destaque nos cards */
+   --border-footer: 0.125rem;
+
+
+   /* DIMENSÕES DE COMPONENTES */
+
+   --hero-min-height: 17.5rem;
+   --sun-width: 12.5rem;
+   --sun-height: 6.25rem;
+   --road-height: 5rem;
+   --road-mark-width: 1.5rem;
+   --road-mark-height: 0.4375rem;
+   --divider-height: 1.125rem;
+   --fuel-bar-height: 0.625rem;
+   --project-bar-height: 0.3125rem;
+   --contact-icon-size: 1.875rem;
+
+
+   /* ANIMAÇÕES */
+
+   --duration-blink: 1.1s;
+   --duration-blink-2: 1.4s;
+   /* Blink alternativo (footer) */
+   --duration-car: 2s;
+   --duration-fuel: 1.4s;
+   --duration-lap: 1.8s;
+
+   --easing-out: ease-out;
+}

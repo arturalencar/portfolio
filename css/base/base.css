@@ -1,0 +1,55 @@
+
+/* Raiz do documento */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  line-height: 1.5;
+
+  /* Centraliza o layout de largura fixa */
+  display: flex;
+  justify-content: center;
+  padding: var(--space-10) 0;
+
+  /* Garante suavidade de fonte em todos os SO */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container principal — representa o "card" do portfólio */
+.portfolio {
+  background-color: var(--color-bg-base);
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Utilitários de acessibilidade */
+
+/* Esconde visualmente mas mantém acessível a leitores de tela */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Tipografia global de fallback */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

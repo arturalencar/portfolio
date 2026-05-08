@@ -1,0 +1,99 @@
+/* ==========================================================================
+   COMPONENTE: FUEL BARS
+   Barras de progresso das tecnologias (seção "Fuel Tank").
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   Linha completa (label + barra)
+   -------------------------------------------------------------------------- */
+.fuel-bar {
+  margin-bottom: var(--space-4);
+}
+
+.fuel-bar:last-child {
+  margin-bottom: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   Cabeçalho da barra — nome da tech e percentual
+   -------------------------------------------------------------------------- */
+.fuel-bar__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-1);
+  margin-top: var(--space-2);
+}
+
+.fuel-bar__tech {
+  font-family: var(--font-display);
+  font-size: var(--text-xxs);
+  color: var(--color-text-muted);
+}
+
+.fuel-bar__pct {
+  font-family: var(--font-display);
+  font-size: var(--text-xxs);
+  color: var(--color-text-muted);
+}
+
+
+/* Trilha — fundo da barra */
+.fuel-bar__track {
+  height: var(--fuel-bar-height);
+  background-color: var(--color-bg-deep);
+  border: var(--border-thin) solid var(--color-border-section);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+
+/* --------------------------------------------------------------------------
+   Preenchimento — a barra em si
+   Largura e cor são definidas inline no HTML para maior flexibilidade.
+   -------------------------------------------------------------------------- */
+.fuel-bar__fill {
+  height: 100%;
+  border-radius: var(--radius-md);
+}
+
+
+/* Variantes de cor por tecnologia */
+
+.fuel-bar__fill--js {
+  background: linear-gradient(90deg, var(--color-tech-js), #d4b800);
+}
+
+.fuel-bar__fill--ts {
+  background: linear-gradient(90deg, var(--color-tech-ts), #5199e8);
+}
+
+.fuel-bar__fill--java {
+  background: linear-gradient(90deg, var(--color-tech-java), #f4a835);
+}
+
+.fuel-bar__fill--kotlin {
+  background: linear-gradient(90deg, var(--color-tech-kotlin), #b08aff);
+}
+
+.fuel-bar__fill--react {
+  background: linear-gradient(90deg, var(--color-tech-react), #21b8d6);
+}
+
+.fuel-bar__fill--spring {
+  background: linear-gradient(90deg, var(--color-tech-spring), #4e9a2d);
+}
+
+.fuel-bar__fill--node {
+  background: linear-gradient(90deg, var(--color-tech-node), #4cba4c);
+}
+
+.fuel-bar__fill--sql {
+  background: linear-gradient(90deg, var(--color-tech-sql), #4a8cc4);
+}
+
+
+@media(min-width: 768px) {
+
+}
