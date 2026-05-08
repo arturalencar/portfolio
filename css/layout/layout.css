@@ -1,6 +1,6 @@
 /* Wrapper de conteúdo — padding lateral das seções */
 .content {
-  padding: 1rem var(--space-6);
+  padding: 1rem var(--space-4);
 
 }
 
@@ -85,7 +85,7 @@
   .grid-2x1,
   .contact-section,
   .projects-section { 
-    max-width: 1280px;
+    max-width: 1024px;
     margin:  auto;
     margin-bottom: 2rem;
   }
@@ -93,5 +93,11 @@
   .grid-2x1,
   .projects-section { 
     margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-label {
+    font-size: var(--text-sm);
   }
 }

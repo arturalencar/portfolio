@@ -81,3 +81,17 @@
     font-size: 0.4rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .project-card__name {
+    font-size: var(--text-sm);
+  }
+
+  .project-card__stack {
+    font-size: var(--text-lg);
+  }
+
+  .badge {
+    font-size: 0.4rem;
+  }
+}

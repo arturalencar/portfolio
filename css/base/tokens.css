@@ -56,7 +56,7 @@
    --color-border-contact: #1a0030;
 
    /* Cores de stack (tech badges / barras de fuel) */
-   --color-tech-js: #f7de1e80;
+   --color-tech-js: #f7de1ecc;
    --color-tech-ts: #3179c680;
    --color-tech-java: #ed8a0081;
    --color-tech-react: #61dafb7e;
@@ -69,7 +69,9 @@
    --color-sun-stripe: #ff5500;
    --color-horizon-warm: #cc3300;
    --color-horizon-hot: #ff8800;
-
+   
+   --color-neon-green: #33ff33;
+   --crt-flicker: 0.15s;
 
    /* TIPOGRAFIA */
 
