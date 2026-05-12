@@ -9,24 +9,28 @@
 // ── DADOS DOS PROJETOS ──────────────────────────────────────────────────────
 const PROJECTS = [
     {
-        id: 'alpha',
-        name: 'LAP 1 — PROJETO ALPHA',
+        id: 'cbm-log',
+        name: 'CBM-SE LOG',
         badge: { text: 'FINISHED', class: 'badge--success' },
         description:
-            'Aplicação full-stack para gestão de dados corporativos com dashboard interativo, relatórios em tempo real e controle de acesso por roles. Interface construída com React e backend robusto em Spring Boot com persistência em PostgreSQL.',
-        tech: ['React', 'Spring Boot', 'PostgreSQL', 'Docker', 'REST API'],
+            'This web application was developed to streamline the management of material and equipment loans within the Sergipe Military Fire Department (CBMSE). It provides a centralized platform for registering and monitoring loans, tracking return deadlines, managing inventory, and overseeing inspection protocols. By replacing manual procedures with a digital solution, the system enhances operational efficiency, improves resource control, and minimizes errors in equipment management.',
+        tech: ['VUE.js', 'TypeScript', 'Supabase'],
         images: [
-            'assets/images/project-alpha.png',
-            'assets/images/project-alpha.png',
-            'assets/images/project-alpha.png',
+            'assets/images/cbm-log/visao-geral-de-inventario.png',
+            'assets/images/cbm-log/add-novo-equipamento.png',
+            'assets/images/cbm-log/gerenciar-equipamento.png',
+            'assets/images/cbm-log/gestao-de-cautelas.png',
+            'assets/images/cbm-log/realizar-cautela.png',
+            'assets/images/cbm-log/gestao-de-bombeiros.png',
+            'assets/images/cbm-log/add-novo-bombeiro.png',
         ],
         progress: {
             value: 100,
             color: '#00cc66ab',
             label: 'LAP COMPLETE — 100%',
         },
-        repo: 'https://github.com/arturalencar/projeto-alpha',
-        live: 'https://projeto-alph.vercel.app',
+        repo: 'https://github.com/CBMSE-Logistica/sistema_cautelas',
+        live: 'https://sistema-cautelas.vercel.app',
     },
     {
         id: 'beta',
@@ -120,7 +124,7 @@ function buildModal() {
 
         <p class="modal__description" id="modal-description"></p>
 
-        <div>
+        <div class="modal__tech-stack">
           <div class="modal__section-label">TECH STACK</div>
           <div class="modal__tech-list" id="modal-tech"></div>
         </div>
