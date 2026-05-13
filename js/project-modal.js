@@ -33,37 +33,35 @@ const PROJECTS = [
         live: 'https://sistema-cautelas.vercel.app',
     },
     {
-        id: 'beta',
-        name: 'LAP 2 — PROJETO BETA',
-        badge: { text: 'PIT STOP', class: 'badge--warning' },
+        id: 'cuidagro',
+        name: 'CUIDAGRO',
+        badge: { text: 'FINISHED', class: 'badge--success' },
         description:
-            'Plataforma de gerenciamento de tarefas com quadro Kanban, notificações em tempo real e integração com APIs externas. Frontend em Next.js com TypeScript e backend em Kotlin, oferecendo tipagem forte de ponta a ponta.',
-        tech: ['Next.js', 'TypeScript', 'Kotlin', 'Prisma', 'WebSocket'],
+            'CuidAgro is a technological solution aimed at promoting health in rural areas, focusing on the prevention of diseases caused by exposure to pesticides. The system allows for integrated monitoring of farmers health, offering support for early diagnoses, generation of strategic reports, and decision-making by health professionals and public managers.',
+        tech: ['Java', 'SpringBoot', 'React', 'TypeScript', 'PostgreSQL'],
         images: [
-            'assets/images/project-beta.png',
-            'assets/images/project-beta.png',
-            'assets/images/project-beta.png',
+            'assets/images/cuidagro/cuidagro-tela-login.png',
         ],
-        progress: { value: 70, color: '#ffaa00c5', label: 'PIT STOP — 70%' },
-        repo: 'https://github.com/arturalencar/projeto-beta',
-        live: 'https://projeto-beta.vercel.app',
+        progress: { value: 100, color: '#00cc66ab', label: 'LAP COMPLETE — 100%' },
+        repo: 'https://github.com/raphamatoss/cuidagro',
+        live: 'https://cuidagro-xi.vercel.app/login',
     },
-    {
-        id: 'gamma',
-        name: 'LAP 3 — PROJETO GAMMA',
-        badge: { text: 'QUALIFYING', class: 'badge--danger' },
-        description:
-            'Dashboard de monitoramento de APIs em tempo real com gráficos de performance, alertas de uptime e métricas de latência. Construído com Node.js e MongoDB para alta escalabilidade e ingestão de dados em tempo real.',
-        tech: ['Node.js', 'TypeScript', 'MongoDB', 'Socket.IO', 'Chart.js'],
-        images: [
-            'assets/images/project-gamma.png',
-            'assets/images/project-gamma.png',
-            'assets/images/project-gamma.png',
-        ],
-        progress: { value: 50, color: '#ff5500b0', label: 'QUALIFYING — 50%' },
-        repo: 'https://github.com/arturalencar/projeto-gamma',
-        live: '',
-    },
+    // {
+    //     id: 'gamma',
+    //     name: 'LAP 3 — PROJETO GAMMA',
+    //     badge: { text: 'QUALIFYING', class: 'badge--danger' },
+    //     description:
+    //         'Dashboard de monitoramento de APIs em tempo real com gráficos de performance, alertas de uptime e métricas de latência. Construído com Node.js e MongoDB para alta escalabilidade e ingestão de dados em tempo real.',
+    //     tech: ['Node.js', 'TypeScript', 'MongoDB', 'Socket.IO', 'Chart.js'],
+    //     images: [
+    //         'assets/images/project-gamma.png',
+    //         'assets/images/project-gamma.png',
+    //         'assets/images/project-gamma.png',
+    //     ],
+    //     progress: { value: 50, color: '#ff5500b0', label: 'QUALIFYING — 50%' },
+    //     repo: 'https://github.com/arturalencar/projeto-gamma',
+    //     live: '',
+    // },
 ];
 
 // ── ÍCONES SVG ──────────────────────────────────────────────────────────────
