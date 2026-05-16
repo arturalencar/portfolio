@@ -46,22 +46,20 @@ const PROJECTS = [
         repo: 'https://github.com/raphamatoss/cuidagro',
         live: 'https://cuidagro-xi.vercel.app/login',
     },
-    // {
-    //     id: 'gamma',
-    //     name: 'LAP 3 — PROJETO GAMMA',
-    //     badge: { text: 'QUALIFYING', class: 'badge--danger' },
-    //     description:
-    //         'Dashboard de monitoramento de APIs em tempo real com gráficos de performance, alertas de uptime e métricas de latência. Construído com Node.js e MongoDB para alta escalabilidade e ingestão de dados em tempo real.',
-    //     tech: ['Node.js', 'TypeScript', 'MongoDB', 'Socket.IO', 'Chart.js'],
-    //     images: [
-    //         'assets/images/project-gamma.png',
-    //         'assets/images/project-gamma.png',
-    //         'assets/images/project-gamma.png',
-    //     ],
-    //     progress: { value: 50, color: '#ff5500b0', label: 'QUALIFYING — 50%' },
-    //     repo: 'https://github.com/arturalencar/projeto-gamma',
-    //     live: '',
-    // },
+    {
+        id: 'pinheiro-fin',
+        name: 'PINHEIRO FINANCE',
+        badge: { text: 'IN DEVELOPMENT', class: 'badge--warning' },
+        description:
+            'Pinheiro Finance is a high-performance cryptocurrency dashboard built with semantic HTML5, modern CSS (Grid/Flexbox), and Vanilla JavaScript. It delivers real-time asset tracking and dynamic theme toggling by directly consuming REST APIs and managing local state with optimal DOM performance.',
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        images: [
+            'assets/images/pinheiro-fin/pinheiro-fin-capa.png',
+        ],
+        progress: { value: 40, color: '#ff5500b0', label: 'IN DEVELOPMENT — 40%' },
+        repo: 'https://github.com/arturalencar/pinheiro-finance',
+        live: '',
+    },
 ];
 
 // ── ÍCONES SVG ──────────────────────────────────────────────────────────────
